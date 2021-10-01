@@ -21,6 +21,7 @@ pair<int,int> findSmallestDifference(int A[], int B[],int m, int n)
     {
         if (abs(A[a] - B[b]) < result)
         {
+            result = abs(A[a] - B[b]);
             x=A[a]; 
             y=B[b];
         }
