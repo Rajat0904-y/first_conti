@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<vector>
 using namespace std;
   
 
@@ -18,7 +19,8 @@ arrays left[] and right[] */
   
     int i, j;
   
-
+    vector<int> le(n);
+    le[0]=1;
     left[0] = 1;
   
 
